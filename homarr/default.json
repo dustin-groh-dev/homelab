@@ -1,0 +1,1766 @@
+{
+  "schemaVersion": 1,
+  "configProperties": {
+    "name": "default"
+  },
+  "categories": [],
+  "wrappers": [
+    {
+      "id": "default",
+      "position": 0
+    }
+  ],
+  "apps": [
+    {
+      "id": "1c123719-4b39-401d-adf7-bfe760fd91f3",
+      "name": "Your Spotify",
+      "url": "http://10.27.27.201:8080",
+      "appearance": {
+        "iconUrl": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.201:8080"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "81cb7688-63c3-4329-bdcc-dcef8e000489"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "663e1947-1a94-4700-9f78-21ddcca32673",
+      "name": "Plex Stats",
+      "url": "https://plexstats.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://tautulli.com/images/logo-circle.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://plexstats.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "81cb7688-63c3-4329-bdcc-dcef8e000489"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2c7a05cd-95f0-4b10-ae3b-b440b30d23e5",
+      "name": "Uptime Kuma (VPS)",
+      "url": "http://172.232.24.200:3001/dashboard",
+      "appearance": {
+        "iconUrl": "https://static-00.iconduck.com/assets.00/uptime-kuma-icon-2048x1892-iigw6pmz.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://172.232.24.200:3001/dashboard/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2af7767d-ec5a-45f3-83ab-80838687bdb4",
+      "name": "TrueNAS (backup)",
+      "url": "https://backup.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://www.osboxes.org/wp-content/uploads/2022/02/truenas-logo.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://backup.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "e21ad885-75c3-41e2-bba3-8bde60f1712d",
+      "name": "TrueNAS",
+      "url": "https://truenas.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://www.osboxes.org/wp-content/uploads/2022/02/truenas-logo.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://truenas.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 11
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
+      "name": "Portainer",
+      "url": "http://10.27.27.201:9000",
+      "behaviour": {
+        "onClickUrl": "https://github.com/ajnart/homarr",
+        "externalUrl": "https://portainer.swagtown.duckdns.org",
+        "isOpeningNewTab": true,
+        "tooltipDescription": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_200,h_200/https://api.charmhub.io/api/v1/media/download/charm_Owpj9CsDEMZwVtup3ZTxxs0FtyvDqb2o_icon_5cef79c2d18f67464f39c8f2cf2d7ebb815b0071f04d3ffbb94f49fddd3ab666.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 2,
+        "appNameFontSize": 16
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 3,
+            "y": 12
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "453000f7-1465-4d71-abe3-888dba21eeaf",
+      "name": "Linode",
+      "url": "https://linode.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/linode.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://linode.com"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "d6a21590-060e-4e0e-ae50-96efcb8fb33c",
+      "name": "Digital Ocean",
+      "url": "https://digitalocean.com",
+      "appearance": {
+        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0ACnunkQYXELxrDBn3Cw49x3n_BFkOuLYGifPVwh-A&s",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://digitalocean.com"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2f86d43e-d59d-4e48-a353-2a812120aed0",
+      "name": "Pihole",
+      "url": "http://10.27.27.250",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/loganmarchione/homelab-svg-assets/assets/pihole.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.250/admin"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": "pihole",
+        "properties": [
+          {
+            "field": "apiKey",
+            "type": "private",
+            "value": "71a9a7b06ba50c10f9c20bb73e5160a64c075b986dd9b647c6acbf4575ea7f99"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0814211d-71b3-4d3e-ba1b-5cff9123e107",
+      "name": "Unifi",
+      "url": "http://10.27.27.201:8080",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/unifi.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.201:8080"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "8973b9eb-9add-4faa-a597-62022b70f604",
+      "name": "Aruba Switch",
+      "url": "http://10.27.27.170",
+      "appearance": {
+        "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbsAAAByCAMAAAD9J4/kAAAAw1BMVEX/////gwD/gQD/fQD/fAD/fwD/8uX/jxP/egD/jiD/hQD/6NL///z/zKf/4c7/2L//oFj/9ez/6t//+vT/iwj/+fL/0Kn/79//5M3/oVT/6tj/7uD/x5v/3MD/uYH/1K3/s3f/2bj/wZD/kjH/mkH/qWL/p17/nEn/kCr/kTD/vov/3r7/2bb/o0z/nEH/nk7/t3r/rmz/q2//s3v/zqH/qGf/lyz/w5f/nDn/iR3/q2H/xpD/kz//vYH/zq3/5Mj/t4et7ZTgAAASp0lEQVR4nO1daXfiPA/FdgwmTafDE/atbAWmG6XLTNfp/P9f9SaBQBJLjh1CeXsO91NPAUXxtWVZsuVC4Qi35xxahSMyolh9GdUOrcQRmVAsc2vedQ+txhEZUCxTQq1J89B6HGEOnztCuDU4TnvfDivuCGHz9qFVOcIQIXeE28ND63KEGTbcEUrrh1bmCCNsuSOUH8n7VohwR6joHVqdIwwQ5c4beUeH5Rshxh3hk+Mq/fsgzh1h/UMrdIQ2EtxRcrSa3wYJ7ghvHVqjI3SR5I7wY2jzu0Dm7jjwvgsk7og4pvO+CWTu2DG68k0gc8cvDq3TEXqQuaP2MZX3f41KGD+RuSOieFDVjlCifVc6Wf8JcGedH1S5IxQoDggjCu7Y6KDqHYHCHVFGqa3gjv87pH65o3FV93F9sqe1j9M4ubqun19ffTb284ANruYW9f0RFXdPwO8qnoLn9fr5XhSsnVwH7XuVq3D3s/v6mwhhWcyD5f1RuukPc3xEZf0A7wk+vD+qt396lfweEIMzFXTlS6q4a0UdTac57N9WVwoGLSDs5+XpCSQ9AxrD/k3Jb9ageb0/yO/X088cHN3G6c0LZZzGI+2cMXt82cwh0eW0LyfgA/jLbb2zu3wJnTEL1wF63BXPXl8I8zSMKehpSOavZ7u6o26zP7Yh4fSlVd9peFTqLTshN/IARt8/2rt1j85o5s888AO4VV3kno3pVXkoX4c7t7ksJztWtInLT73sU4jTvnvnqtf/eZ7V+FT6VYEQF8pnbLpDyL2xJBai+Vq+OMsuHUSPbLcVpXPn1mdWSgtwMT7NaH56LYulCX+5zMJeY8DUktcvKW6vs6neXqb0DA8sZ+56kVdK5+60JHjyA6CFreoog/WpP2sJZ/TB1C7X7gRLl7x6TfGcwbJVBjqqb7ir5OIaNUR0U1EKd8Oq0Oi76wY2jV03y/rCrUujgX3+ostc8KK0b2r0u7YGcxHufrDJcGfPqxbjSMkdfZ/pWJ3N19mtiddZWaZanJjwuf527dqFid6B9LFi2nur9/6LW+1Oy9J7wJY7i7NxfUe/dhnrkEruiHIeBsBJV1uPq7lx+z5ovnpzbjLo1qrzU1SetzBi86d+czNu9Ed1ZNz5E8vkU7t9AAyteIMouTMGFRd6boUzMmTOhzXRmjS6XMucSaq/Yl2jRIMFm5hfrp4/0Bx0JMGdP7Uusw89dxx/bM7cecqWdXzuykJkEc5JenQ8jDpkUR1xWUprgZSJ52bBmVlqOTGZce68f9DMJ3W6iTbLnTvvBdPt5qfeRA8IF8sU0c7C3F6G4DY8X5e2LcP5YGLygMh8F76ClTHC7yQJyp87j7zLFC2uSPZHMSjGukWtlZ26aGvEUIo65iYOFjDu/PYZGHEWYph8sz1wl9qzrkxdoBiUB3N3ow4jr7RDV5O58/6ZZjxA3CRt1T64SyFvaNZzJVhLnLwLg6kIBC8Dvlbe3BFxZ06dK73aXrjzyMOX6e0dDOYKFnpUYrDbqPPBn2VHMHfuiDDfkXD9Rdx5C0NsIVN82f0xmDfU3Z06T/j0C7ij1DgK90d6uT1x58mFU1fuOKOHGRPOQD+7rV52Uco5Z4wjCZEN2J/9c5dIjeqgJTWcMXfUT/qsWkD5fT4GNVBbNV940Lwp7UsJEH50nxXdwlP65X3xuvy4e229/6KqwAClyQiAHnfeIyyLU275jRP+E+POfOOyrIQZd346tPw+/fi4W05n72hWM4CADNuVypfwWvTXe+v17mP5unh/UQqHPLVLfLnPub082zJSa47mHKePT8y5o4yTm/7fs16zd3Y6uCWheJQ7OjcMsMhuggl3lJGb0+YmGeO0/94oOjBlskl3q4qv89+j5nY4Nc6WtiK2JU/2TZRrLqby7Nv4g7OX7Hap3HFhP1zFuGhe2kGKCOXOeODJPVOfOypsOb/qDudoBIpPJJO+xCym1we6cqzys4WmyGg14cs7E+Sr1JrC0RLnkiDqUBLPFqZwR60FNP8OZ17T4NzREqgVhkp27qhVRvrJ9RhjTzwmvtrELCazkcRts4UJT1rNOsIDG+Oh++ISGXqJyIeaOzQ55QzHzEK5I8wop5CdO0ov0eSk+4hEJ2linesskO+xAZ4V7yH5HEpjMW8p2BeKvlBOK3VkE078wLaKO8qWeNrW7QsFd2mhwxgyc8fVyYE24vgntLtGWLCVC1UszBU/2nkKfonytPY5gSMF8VGt4I7SpHGJo45zZ2Y0s3LHxyk7Aly4fROT0gR8ALfTlql92LLFzlSDTpAqvBOiU4X6HbWjsy/OHaVXqU9YQeaOCJMdVBm5Y7fp7uwSdNBjAZAeyC8YQEwgmbha//J1+40r8BtaZ2E64HvHTAbKHU3tdxtA3JnsT8vGHZvqhACWkB9C7cg3bqEOzuc6nQ8mL9JvnyDZQi9R1oTmvJjmGHfUoJwCwJ3RUZ1M3GlWOHJnYPNtTUo73TbhuIN6xjZ4VYOaX1piY+iCwiMV1TDuTJZoAHd8oP/zTNxpVxbrgO23VU+OpRL9E36gG0mfQ4NQB8alHNpCAS0No3WdEO64SRoO4k7LoK2RhTum9qMieATIiRx7/g1RK8fsEYBRExHGuyGTaWCRGhD1EaMJc0dfTPZ0AtxRk5ptGbgzcWShlYIIF6BFaMoy8LSgIDZ7W8sGvEw6NujUkHCxjcbA3MHJDAwQd2UD8jNwxw0KaUKT/sb0QLk1k8m6AuT9+M8VPz+AfqGxPNiiAazyIj4yyB1fGGVxIO6qe+VOe74PIKeYCJ2t7QJg1syMziX08kX0Iy3/dYNXWbvIbAZyZ1ge9uu5Y39N9ANWcJSs2tAF3t+szGPHliWIlY8+lVueme0IgTTfJmkg7kxzOF/OHS0bHb+pjdHmhR5N4Pg+hguAoWDCc9+Bx5rJrvwCLPKmZSHuzKKRB+AOPHCuwABo3tW0MQQePTMTXpeXYavQSkOeCmnVMLMJdAyxWRxB3AnDkwU/ZO33y51pgZWe/ID1Cu8NCCsYbnSrAD134X8AxJP5vZnswqPctNuXB7ij3PABXz/uDE8sVoBWXC3hgBEpDA8Lu7fy8AqC5LuGm3y05aYJVyAwd8+GD/hq7owWID6ACY+uXGnZzaTUtAjCvSyj7MdOzuTXMq7IVJR7HfsIPwS4M4pn+fhq7vjCcNZw5GmDvvsKOj+Bdjc9RD6SU2BVf076K9s7oZuaCVEB3n4Qfgj5yPhpPRhfzp3prFH4J1M09+2uO5MH5MT0mLAcdFu5qnlwB1iM7dvnwt0X+yr8wVBBYJVMq75ZcxYydzPTU4Tn8uuzH97/zwDuTM+XunJiOIza/H+MOyCmmDN3gFkLtn5ANtOYOyDBGmwHAUJiRmlNH9C4y5c7IK5EDGYNwJnaJtD2Ne5WqWWAO2ObKZ+mIME2LMAcGfsqlfmeuYOO0DAD7j4B7l7CZYBuLTgl/gHcBZ0D8DPNIo4FcHG+4g6NCOijKEfccuYOCukZBH+ABSidh70fWiMYXwqEufHQB7ZpuRsgextwB63NTS0GYJLy5a4B5KlMch1QvP1XqCDEXXLzcRrcZ2D5HMiA1ub/mQmHZATcQTGxW8NjNkDiOF/uoFivwSLRAeLtdJPkgeIqwvCUGBBXWYWtoJiYUYatIJeoCGT43NWAWLTJVOIDaJp8uQNmfBN3rQIM2+1GOYi7bVhID0DEeT1nAn6GaQn/IrAlaLVlHGgWQ2cFcFXy5m4JOZraW2qASHGEHTCe+XNn/da5kg7gJv0yGxvAbL3m7g7ax2MkW6qhQHLnDrA8xNJ2qYCWJdv6jmD+rmpUfQ7qvWK1q6MGuFnMKPPsAFn5NXdQgokYRUuhvaM5cwdtzKC62xKAkF300ASYN9fvGD6GgB/LV4MLOkdidllUG9optuIO2l5oVAejCW77zZc7aMbS3g4EbSGNzJYgd7RssEpwAGdis8yAfFxqktwGsqMhd0C0VHvXbgBwX3DO3IEvwPXyzy5g0KJeKrxPzCQRdg4pFy60oBMDJgPvBDC6IXeFPjRd6c94gM0l+XMnxwt9OVpBc/CnYrvHENmfqb+72IWqb2we4ICP1w8Zw2f31tw1ocbX3j9Zg3cV580dtIPXM2waC9EGNF1Qe+vqIfui9ccG4O158+nG5gIrKELnukto5FjrmjsH3Mmlm/WfIgf8cubOkQMXRG/nB3gcO5qgw86SCE0toRVI1CZDbri2R9FASqeER4JBo5J6bHAFrD5E3twhpXtEaohiAB71jqYo0TNclpYvBJ6EihpFBzxhKqRCNBAgF3ml25o70B4RttAgD6TdR+7cAelT4s9KKe0LUx674A7ljtoas9IJWGoqdooNLovDNVYhFayGw4Y7ZDpkrdTl/wgv7ZE3d3IlvnUjKcnrwgrG9ofi515pNXXkNctw20WJgY9203TyijO0GNKGu0/kxPtY7Wo5A0VBndy5A5eR/shTeFV9pG/FAraK8+aUp9jkIXziPnHgAFyhESou1Q5Le46XyNlwB5+q9SsaqbzNxrOizlL+3GFKUvSEbnGCKBivIqKq80CFomal1zeQIiiJqAwYGfEgblSWra4q/7zlDunTnupTLDrmjJiqMN0euIOP3PvvUYZMm9PFFExEsdW1cVgV7b+9MtI3tnndNbCyRpyidrM9UxYF33KH10zidh8ynLV6WV0qfg/cFS7Qwk580ksMj0odv4UgcRoipSYV5eNraOw1p+hkL+VhwGPNgXA2HkLBt/aAqEs2RriDzgmF0u1lM96N3PbHr7Qi//vgDleScPb+1g4NkFP8cae4P4ImVj+pteC8Bn4sxukrni/wem1Aicg/6CDyhI86cfoqvSlJa98Id4VTfO6inI3vu581N0D78WGiKOO30X8P3MF1CTZtwObT/tvj49tDq6S84cpKGEGNGozUsn8+1CurFqgM+1PVFWVQNM1RVD6ljCwezjtr4b23p3nK7V/BS0SvuVLW+fbvprCq5fG8yoWGYLIn7uAYSVRLtqpOqvqWFNHQqn1KObcErc7HJVsIZYVLuRKcDyw+shJOmSVIaT4uV9OEh4hx5+IGafMEmlKyNYL9cFfUv9MEfQspBqpfc1irBYCyyz6gYhDmwjeIcacooZkF++GucL5rUWsqbw3Mt140HyOJP9QdzIQ4d4XTDJcModgTdzu3ALD3NN867VVsh1lthztfZCS4gzK8mbEv7pzd7t+ATunnej8Cwc9FFvOo1B4iyV1BEeMyxb64K7hqf0UNcC7K814S5S6iRqpLoQ+JO6SgYBbsjbtCBY7+6sACa/PneB9QSumRYsqC2wAyd4WPrFeoJbE/7gruOKPZFK+gvNy44wqDuX5UVtUlANxhSRNj7JG7gptp1qdYqjov7tg8ffdXccfrsjaAuCsMwVK0aaDJH+2Tu4KLlRlXaojVdMnr3smWzqbWLKoTP2id+AfIXaFhdL3gWrSdPKqyV+78dLhhC3A8Rytzl3ZxDgAq+pq7hx7N4wvUukjuAIW587NSZkOPimmtkEjx7pm7wolt0sOoeMa3TkncsWWjbNjATJ2+j6GB34oBg7N64SQx8jDuCicTA+nUCq44cBexQPG+uSs4d8r8Yfzl8TRZQebOmvpXd3CDvsHZndEx5G5qmiAm/MlPkPTitgDlruCco3duJEAZXd97X3uK/mTv3BUKTc0exhmaQA4Q5y68sqGz1AsK+1HqC9M73YoPyguxotLFZD2i49f84tx5w6g+1+jXlNmDTbs4o4jH8gXceTqmphH9fRuzZF42gSh33htssgDNhcb1tJSRlmGJqQDtpa3BHmfj+iY86jki21+ouPPG0fA5JU/HWTWeVD+ZbBKSX8Gdz15ZqSNlfJI6EW258wZDzFlsXqQMD4+5ZRbmfLT7tnp0eMo//412O6db3aij5s7XfcCxdBJlQrSGUof+nK7ze1/Dnf/EO09HeFM6E9WRxoGbNXf+3Xt3SeNX7JbQFvDkl09Ny21E4dSfsWyoL5xcSsq7p6X1y6Zy5+FqdEu9B/Awt0SD6xeF9fvfFWyJ3NMF977/Zdx5uP43tiy2vQ9ypSKbjfQObHjceT8QtNUFszeN7oKsWmAr3RMvSk+PRucrQVTq9yU/3RptX186mXaRXnfSL/u9SWhw5/UOf5vD06RcJUHO3J7PnvrXFcUU4lTqDz+rm4LQtpCRL3f+Ix/7T2PbH2p+v6xO7i+va7qnNYq2oJOHoYt+P2iBn2Wb+apTuzRf3F8OK6ZVPDC4lavRfWtcsonX3zipjlv3bye4Mv7ViW/3E6LF3Qq1SrHT+e+/TqeopbRT3KynvF9J2MXS4CoGGgY6GrVr7bzXSf+BUykGqneKRVXHzQin4rXvSnetPlcze8UjjjgiJ/wP005HFRNKGEsAAAAASUVORK5CYII=",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308",
+          "401"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.170"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 4
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "76aa667f-e70d-4cb6-9315-06c9d0ef896d",
+      "name": "Speedtest Tracker",
+      "url": "https://speedtest.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://repository-images.githubusercontent.com/254024234/7552e180-8690-11ea-9f00-9a53b6a6baa3",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://speedtest.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 1,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "faeb5d16-dc55-4f9b-8c2b-d87487c3be73",
+      "name": "Plex Stats",
+      "url": "https://plexstats.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://avatars.githubusercontent.com/u/34385001?s=280&v=4",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://plexstats.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 10
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "6983dc9c-a508-4af3-aeff-cec92edec643",
+      "name": "Plex",
+      "url": "https://plex.tv",
+      "appearance": {
+        "iconUrl": "https://logowik.com/content/uploads/images/plex-tv-new4324.jpg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://plex.tv"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 1,
+            "y": 5
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2dad03c3-f46a-46e2-b52a-9104d212f3e9",
+      "name": "Rancher (local)",
+      "url": "https://rancher.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rancher.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://rancher.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 4
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "389e43ff-4fa7-4b85-874b-56f8e2119f41",
+      "name": "Rancher (GKE)",
+      "url": "http://rancher-manager.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rancher.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://rancher-manager.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "c0521168-5deb-4f8d-a81e-f1db481ea6b0",
+      "name": "Ghost",
+      "url": "https://206.189.207.173/ghost/#/dashboard",
+      "appearance": {
+        "iconUrl": "https://ghost.org/images/logos/ghost-logo-orb.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://206.189.207.173/ghost/#/dashboard"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 4
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "96854bcc-bc54-452c-84b1-dbe7be1b5028",
+      "name": "Tailscale",
+      "url": "https://tailscale.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/tailscale.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://tailscale.com"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "36e4b9d7-aa0b-41af-9a9d-b12ac3994578",
+      "name": "Proxmox",
+      "url": "https://proxmox.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/proxmox.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://proxmox.swagtown.duckdns.org/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 4
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "50e43e9d-bdbc-4b4b-b5f3-fdb46f986d1b",
+      "name": "Nginx Proxy Manager",
+      "url": "https://swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://nginxproxymanager.com/icon.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "b01f16cb-3e89-43f5-a222-a1b8f832a371",
+      "name": "Your Spotify",
+      "url": "http://10.27.27.201:3000/login",
+      "appearance": {
+        "iconUrl": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.201:3000/login"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 5
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "62568f3e-5801-45d5-8bd7-1c8ceb9816fb",
+      "name": "QBittorrent",
+      "url": "http://10.27.27.201:8090",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/qbittorrent.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.201:8090/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": "qBittorrent",
+        "properties": [
+          {
+            "field": "username",
+            "type": "public",
+            "value": "admin"
+          },
+          {
+            "field": "password",
+            "type": "private",
+            "value": "Y%Axk6rViCwo%g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f1d2f072-85b2-4efe-b6c9-b125e9d97699",
+      "name": "Prowlarr",
+      "url": "http://10.27.27.201:9696",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prowlarr.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308",
+          "401"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.201:9696/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "39d38a8b-65fb-4d11-b93c-14b42894b688",
+      "name": "pfSense",
+      "url": "http://10.27.27.1",
+      "appearance": {
+        "iconUrl": "https://wpcomputersolutions.com/wp-content/uploads/2018/07/pfsense-logo-e1534531558807.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://10.27.27.1/index.php?logout"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "9aafca4a-bfff-449d-bc9e-3c8641c13fe6",
+      "name": "Uptime Kuma (lab)",
+      "url": "https://uptimekuma.swagtown.duckdns.org",
+      "appearance": {
+        "iconUrl": "https://static-00.iconduck.com/assets.00/uptime-kuma-icon-2048x1892-iigw6pmz.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://uptimekuma.swagtown.duckdns.org"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "f1730a96-e9ea-4d2c-b31c-ee7e419e5bb4",
+      "name": "SUSE Okta",
+      "url": "https://suse.okta.com/app/UserHome",
+      "appearance": {
+        "iconUrl": "https://i.redd.it/2ccpt0p5saw41.jpg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://suse.okta.com/app/UserHome"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 6
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "ce3faa4c-9a5d-4763-8e75-e0a1bb716c76",
+      "name": "SUSE Support Matrix",
+      "url": "https://www.suse.com/suse-rancher/support-matrix/all-supported-versions",
+      "appearance": {
+        "iconUrl": "https://i.redd.it/2ccpt0p5saw41.jpg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/"
+      },
+      "area": {
+        "type": "sidebar",
+        "properties": {
+          "location": "left"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 7
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
+      "type": "weather",
+      "properties": {
+        "displayInFahrenheit": true,
+        "location": {
+          "name": "Indianapolis",
+          "latitude": 39.76838,
+          "longitude": -86.15804
+        },
+        "displayCityName": true
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "971aa859-8570-49a1-8d34-dd5c7b3638d1",
+      "type": "date",
+      "properties": {
+        "display24HourFormat": false,
+        "dateFormat": "hide",
+        "enableTimezone": false,
+        "timezoneLocation": {
+          "name": "Paris",
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        },
+        "titleState": "city"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "41d0ddbe-ec49-4da1-856e-5297111406e7",
+      "type": "dns-hole-summary",
+      "properties": {
+        "usePiHoleColors": true,
+        "layout": "grid"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 3,
+            "height": 2
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "common": {
+      "searchEngine": {
+        "type": "google",
+        "properties": {}
+      }
+    },
+    "customization": {
+      "layout": {
+        "enabledLeftSidebar": true,
+        "enabledRightSidebar": false,
+        "enabledDocker": false,
+        "enabledPing": true,
+        "enabledSearchbar": true
+      },
+      "pageTitle": "Homarr ⭐️",
+      "logoImageUrl": "/imgs/logo/logo.png",
+      "faviconUrl": "/imgs/favicon/favicon-squared.png",
+      "backgroundImageUrl": "",
+      "customCss": "",
+      "colors": {
+        "primary": "red",
+        "secondary": "yellow",
+        "shade": 7
+      },
+      "appOpacity": 100,
+      "gridstack": {
+        "columnCountSmall": 3,
+        "columnCountMedium": 6,
+        "columnCountLarge": 10
+      },
+      "backgroundImageAttachment": "fixed",
+      "backgroundImageRepeat": "no-repeat",
+      "backgroundImageSize": "cover",
+      "metaTitle": ""
+    },
+    "access": {
+      "allowGuests": false
+    }
+  }
+}
