@@ -1,0 +1,27 @@
+#server command
+curl -sL https://get.rke2.io | INSTALL_RKE2_VERSION=v1.26.12+rke2r1 sh
+
+#agent command
+curl -sfL https://get.rke2.io | sudo INSTALL_RKE2_VERSION=v1.26.12+rke2r1 INSTALL_RKE2_TYPE="agent" sh -
+
+
+config contents
+server: https://10.27.27.118:9345
+token: K1011ff1ce94939668f608eda7e1bcecf08a9af1c9d0073fef4aad7ad28cb46c4a6::server:2820b429cd8d48d0ba8b3c92ed4e15d7
+
+helm install rancher rancher-stable/rancher --version=2.7.5 \
+  --namespace cattle-system \
+  --set hostname=HOSTNAME \
+  --set bootstrapPassword=admin
+
+
+  helm install \
+  ingress-nginx ingress-nginx/ingress-nginx \
+  --namespace ingress-nginx \
+
+# installs docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+
+# if docker doesn't start right away
+# systemctl start docker
